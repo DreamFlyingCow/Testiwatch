@@ -39,8 +39,10 @@
     NSLog(@"%@", context);
 //    self.tableView setRowTypes:<#(nonnull NSArray<NSString *> *)#>
     NSDictionary *dataDic = @{@"11" : @"22", @"22" : @"33", @"33" : @"44", @"44" : @"55", @"55" : @"66", @"66" : @"77", @"77" : @"88", @"88" : @"99"};
+    // 设置tableView的cell个数(numberOfRows)
     [self.tableView setNumberOfRows:dataDic.count withRowType:@"table"];
     NSArray *titles = [dataDic allKeys];
+    // 遍历设置数据
     for (int i = 0; i < dataDic.count; i ++) {
         TTTableView *table = [self.tableView rowControllerAtIndex:i];
         [table.labelOne setText:titles[i]];
@@ -56,6 +58,14 @@
     
     
 }
+
+// 相当于cell的点击事件
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex {
+    
+    
+    NSLog(@"%d", rowIndex);
+}
+
 
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
