@@ -7,6 +7,7 @@
 //
 
 #import "InterfaceController.h"
+#import "TTInterfaceController.h"
 
 
 @interface InterfaceController()
@@ -16,19 +17,32 @@
 
 @implementation InterfaceController
 
+//这个函数在初始化界面时会触发，通过context可以实现界面的传值
 - (void)awakeWithContext:(id)context {
+    
     [super awakeWithContext:context];
-
-    // Configure interface objects here.
+    [self setTitle:@"你好"];
+    
+}
+- (IBAction)didBtnClick {
+    
+    
+    [self pushControllerWithName:@"TTSecondVC" context:@"这只是一个测试"];
+    
+    
+    
 }
 
+//这个函数在界面即将展现时触发 类似于iOS中的ViewWillApear
 - (void)willActivate {
-    // This method is called when watch view controller is about to be visible to user
+    
     [super willActivate];
+    
 }
 
+//这个函数在界面消失后触发，类似于iOS中的ViewDidDisAppear
 - (void)didDeactivate {
-    // This method is called when watch view controller is no longer visible
+    
     [super didDeactivate];
 }
 

@@ -21,6 +21,7 @@
 		82E93F801DF803FA00D11855 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93F7F1DF803FA00D11855 /* ExtensionDelegate.m */; };
 		82E93F831DF803FA00D11855 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93F821DF803FA00D11855 /* NotificationController.m */; };
 		82E93F851DF803FB00D11855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E93F841DF803FB00D11855 /* Assets.xcassets */; };
+		82E93FC61DF9395D00D11855 /* TTInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93FC51DF9395D00D11855 /* TTInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		82E93F861DF803FB00D11855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E93F941DF8093700D11855 /* TTGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGroup.h; sourceTree = "<group>"; };
 		82E93F951DF8093700D11855 /* TTGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGroup.m; sourceTree = "<group>"; };
+		82E93FC41DF9395D00D11855 /* TTInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInterfaceController.h; sourceTree = "<group>"; };
+		82E93FC51DF9395D00D11855 /* TTInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 			children = (
 				82E93F7B1DF803FA00D11855 /* InterfaceController.h */,
 				82E93F7C1DF803FA00D11855 /* InterfaceController.m */,
+				82E93FC41DF9395D00D11855 /* TTInterfaceController.h */,
+				82E93FC51DF9395D00D11855 /* TTInterfaceController.m */,
 				82E93F7E1DF803FA00D11855 /* ExtensionDelegate.h */,
 				82E93F7F1DF803FA00D11855 /* ExtensionDelegate.m */,
 				82E93F811DF803FA00D11855 /* NotificationController.h */,
@@ -336,6 +341,7 @@
 				82E93F801DF803FA00D11855 /* ExtensionDelegate.m in Sources */,
 				82E93F7D1DF803FA00D11855 /* InterfaceController.m in Sources */,
 				82E93F831DF803FA00D11855 /* NotificationController.m in Sources */,
+				82E93FC61DF9395D00D11855 /* TTInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +569,7 @@
 				82E93F8B1DF803FB00D11855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82E93F8D1DF803FB00D11855 /* Build configuration list for PBXNativeTarget "JustTrying WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +578,7 @@
 				82E93F8F1DF803FB00D11855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82E93F911DF803FB00D11855 /* Build configuration list for PBXNativeTarget "JustTrying" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +587,7 @@
 				82E93F931DF803FB00D11855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

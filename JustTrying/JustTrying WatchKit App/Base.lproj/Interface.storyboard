@@ -12,12 +12,24 @@
                     <items>
                         <button width="1" alignment="left" title="按钮" id="uqq-EU-aaF">
                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="didBtnClick" destination="AgC-eL-Hgc" id="cdd-RV-BTc"/>
+                            </connections>
                         </button>
                     </items>
                     <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="126" y="317"/>
+        </scene>
+        <!--TTSecondVC-->
+        <scene sceneID="QIw-QP-7Ai">
+            <objects>
+                <controller identifier="TTSecondVC" id="EOx-47-fYE" customClass="TTInterfaceController">
+                    <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="401" y="338"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
