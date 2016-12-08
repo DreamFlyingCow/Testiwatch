@@ -24,6 +24,7 @@
     [self setTitle:@"你好"];
     
 }
+
 - (IBAction)didBtnClick {
     
     
@@ -32,6 +33,13 @@
     
     
 }
+
+- (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier {
+    
+    return @"这只是一个测试1111";
+}
+
+
 
 //这个函数在界面即将展现时触发 类似于iOS中的ViewWillApear
 - (void)willActivate {

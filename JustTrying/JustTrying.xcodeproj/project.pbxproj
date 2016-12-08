@@ -22,6 +22,7 @@
 		82E93F831DF803FA00D11855 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93F821DF803FA00D11855 /* NotificationController.m */; };
 		82E93F851DF803FB00D11855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E93F841DF803FB00D11855 /* Assets.xcassets */; };
 		82E93FC61DF9395D00D11855 /* TTInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93FC51DF9395D00D11855 /* TTInterfaceController.m */; };
+		82E93FD51DF957C100D11855 /* TTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E93FD41DF957C100D11855 /* TTTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +92,10 @@
 		82E93F821DF803FA00D11855 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		82E93F841DF803FB00D11855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82E93F861DF803FB00D11855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82E93F941DF8093700D11855 /* TTGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGroup.h; sourceTree = "<group>"; };
-		82E93F951DF8093700D11855 /* TTGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGroup.m; sourceTree = "<group>"; };
 		82E93FC41DF9395D00D11855 /* TTInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInterfaceController.h; sourceTree = "<group>"; };
 		82E93FC51DF9395D00D11855 /* TTInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInterfaceController.m; sourceTree = "<group>"; };
+		82E93FD31DF957C100D11855 /* TTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableView.h; sourceTree = "<group>"; };
+		82E93FD41DF957C100D11855 /* TTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +163,6 @@
 		82E93F691DF803FA00D11855 /* JustTrying WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				82E93F941DF8093700D11855 /* TTGroup.h */,
-				82E93F951DF8093700D11855 /* TTGroup.m */,
 				82E93F6A1DF803FA00D11855 /* Interface.storyboard */,
 				82E93F6D1DF803FA00D11855 /* Assets.xcassets */,
 				82E93F6F1DF803FA00D11855 /* Info.plist */,
@@ -178,6 +177,8 @@
 				82E93F7C1DF803FA00D11855 /* InterfaceController.m */,
 				82E93FC41DF9395D00D11855 /* TTInterfaceController.h */,
 				82E93FC51DF9395D00D11855 /* TTInterfaceController.m */,
+				82E93FD31DF957C100D11855 /* TTTableView.h */,
+				82E93FD41DF957C100D11855 /* TTTableView.m */,
 				82E93F7E1DF803FA00D11855 /* ExtensionDelegate.h */,
 				82E93F7F1DF803FA00D11855 /* ExtensionDelegate.m */,
 				82E93F811DF803FA00D11855 /* NotificationController.h */,
@@ -338,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E93FD51DF957C100D11855 /* TTTableView.m in Sources */,
 				82E93F801DF803FA00D11855 /* ExtensionDelegate.m in Sources */,
 				82E93F7D1DF803FA00D11855 /* InterfaceController.m in Sources */,
 				82E93F831DF803FA00D11855 /* NotificationController.m in Sources */,

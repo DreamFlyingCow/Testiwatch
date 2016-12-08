@@ -26,10 +26,37 @@
         <scene sceneID="QIw-QP-7Ai">
             <objects>
                 <controller identifier="TTSecondVC" id="EOx-47-fYE" customClass="TTInterfaceController">
+                    <items>
+                        <table alignment="left" id="qA4-IO-bUz">
+                            <items>
+                                <tableRow identifier="table" id="NWg-6q-hWG" customClass="TTTableView">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="f93-6X-d6t">
+                                        <items>
+                                            <label alignment="left" text="Label" id="8uv-7Z-O6N">
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="left" text="Label" id="6xa-Cb-8z5">
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="labelOne" destination="8uv-7Z-O6N" id="7lX-Y9-zvr"/>
+                                        <outlet property="labelTwo" destination="6xa-Cb-8z5" id="MkV-DD-sZQ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
                     <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="tableView" destination="qA4-IO-bUz" id="D8p-mp-Sas"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="401" y="338"/>
+            <point key="canvasLocation" x="351" y="317"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
